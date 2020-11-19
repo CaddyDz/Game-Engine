@@ -1,17 +1,18 @@
 #pragma once
+
 #include "Engine.h"
 
-//Player Class
+// Player Class
 class Player : public Character
 {
 public:
-    Player();
-    void checkInput();
+	Player();
+	void checkInput();
 
 };
 
-//Enemy Class
+// Enemy Class
 class Enemy : public Character
 {
-    //
+	//
 };
